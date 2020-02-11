@@ -15,9 +15,15 @@ fieldset div{
 
 .contact{
    display: grid;
-
+   grid-template-columns: auto 1fr;
+   grid-row-gap: 5px;
 }
-{
+
+input[type=reset],input[type=submit]{
+   border: 1px solid black; 
+}
+
+body{
    border: 1px solid black;
    width: 120px;
    padding: 3%;
@@ -26,6 +32,7 @@ fieldset div{
    -moz-box-sizing: content-box;
    box-sizing: content-box;
 }
+
 input, textarea, select{
    background-color:#FFFFFF;
 }
